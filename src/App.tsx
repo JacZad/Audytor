@@ -41,12 +41,13 @@ const useStyles = makeStyles({
   },
 });
 
+
 const initialData = {
-  name: 'Send email to Adrian',
-  description: 'Confirm if you have passed the subject\nHereby ...',
-  done: true,
-  recurrence: 'Daily',
-  rating: 3,
+  name: 'Szkoła podstawowa nr 4 w Andrychowie',
+  description: '',
+
+
+  
 };
 
 const renderers = [
@@ -69,8 +70,8 @@ const App = () => {
       <div className='App'>
         <header className='App-header'>
           <img src={logo} className='App-logo' alt='logo' />
-          <h1 className='App-title'>Welcome to JSON Forms with React</h1>
-          <p className='App-intro'>More Forms. Less Code.</p>
+          <h1 className='App-title'>Formularz audytu architektonicznego</h1>
+          
         </header>
       </div>
 
